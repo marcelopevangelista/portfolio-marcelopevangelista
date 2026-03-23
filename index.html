@@ -1,0 +1,132 @@
+<!-- ALUNO: MARCELO PEREIRA EVANGELISTA - RU: 5403284 -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Marcelo Evangelista</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="menu">
+      <div class="logo">Marcelo Evangelista</div>
+
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <button id="temaBtn" class="tema-btn">Modo escuro</button>
+    </nav>
+  </header>
+
+  <main>
+   <section id="sobre" class="secao">
+  <div class="conteudo sobre-container">
+
+    <div class="sobre-texto">
+      <h2>Sobre mim</h2>
+      <p>
+  Meu nome é Marcelo Evangelista, sou formado em Administração de Empresas pela UNAERP e atualmente estou cursando Análise e Desenvolvimento de Sistemas pela UNINTER. Minha trajetória combina conhecimentos de gestão com habilidades técnicas, permitindo uma visão mais completa na resolução de problemas e no desenvolvimento de soluções digitais.
+</p>
+
+<p>
+  Tenho interesse em desenvolvimento web, com foco na criação de interfaces modernas, funcionais e bem estruturadas. Busco sempre aplicar boas práticas de organização, usabilidade e clareza visual, valorizando a experiência do usuário e a eficiência na apresentação das informações.
+</p>
+
+<p>
+  Estou em constante aprendizado, acompanhando novas tecnologias e aprimorando minhas habilidades tanto no front-end quanto na lógica de programação. Tenho facilidade em adaptação, atenção aos detalhes e interesse em projetos que unam tecnologia, organização e inovação.
+</p>
+    </div>
+
+    <div class="sobre-foto">
+      <img src="img/foto.png" alt="Foto de Marcelo Evangelista" width="200">
+    </div>
+
+  </div>
+</section>
+
+    <section id="formacao" class="secao">
+      <div class="conteudo">
+        <h2>Formação</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Formação acadêmica</h3>
+            <p>Administração de Empresas - UNAERP</p>
+            <p>Letras - Tradutor Intérprete - UNIFRAN</p>
+            <p>Análise e Desenvolvimento de Sistemas (cursando) - UNINTER</p>
+          </div>
+
+          <div class="card">
+            <h3>Idiomas</h3>
+            <p>Português - Nativo</p>
+            <p>Inglês - Fluente</p>
+            <p>Alemão - Intermediário</p>
+            <p>Espanhol - Básico</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="secao">
+      <div class="conteudo">
+        <h2>Portfólio</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Formulário Outgoing UNAERP</h3>
+            <p>
+              Projeto front-end desenvolvido para inscrição de alunos interessados da UNAERP (Outgoing) em
+              programas de mobilidade acadêmica internacional, com foco em organização
+              das informações, interface responsiva e experiência do usuário.
+            </p>
+            <div class="links-projeto">
+              <a href="https://marcelopevangelista.github.io/Formulario-Outgoing-UNAERP/" target="_blank">Acessar</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Formulário Incoming UNAERP</h3>
+            <p>
+              Projeto front-end criado para inscrição de alunos estrangeiros (Incoming) interessados em estudar na UNAERP, com uma interface
+              simples, responsiva e clara e voltada para a organização dos dados.
+            </p>
+            <div class="links-projeto">
+              <a href="https://marcelopevangelista.github.io/Formulario-Incoming-UNAERP/" target="_blank">Acessar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="secao">
+      <div class="conteudo">
+        <h2>Contato</h2>
+
+        <form id="formContato" class="formulario">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="6"></textarea>
+
+          <button type="submit" class="enviar-btn">Enviar</button>
+        </form>
+
+        <p id="mensagemStatus" class="mensagem-status"></p>
+      </div>
+    </section>
+  </main>
+<footer class="footer">
+  <p>© 2026 Marcelo Evangelista. Todos os direitos reservados.</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
