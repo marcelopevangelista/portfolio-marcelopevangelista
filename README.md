@@ -41,7 +41,7 @@ Projeto front-end voltado para inscrição de alunos estrangeiros na instituiç�
 
 ## 📬 Contato
 
-Caso queira entrar em contato, utilize o formulário disponível no site.
+mpevangelista@icloud.com / +55 16 98265-0784
 
 ---
 
